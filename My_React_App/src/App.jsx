@@ -3,7 +3,7 @@ import Header  from "./assets/header.jsx"
 import Footer from "./assets/footer.jsx";
 import Food from "./Food.jsx";
 
-import Button from "./button/botton"
+// import Button from "./button/botton"
 
 import Card from "./Card.jsx";
 import Student from "./Student";

@@ -16,19 +16,33 @@ function MyComponent(){
 
     const Increment= ()=>{
         setAge(age+1);
+
     }
+
+
+
+    const decrement= ()=>{
+        setAge(age-1);
+        
+    }
+
+ const resetAge=()=>{
+    setAge(0);
+ }
     return(
 
         <div>
             <p>Name:{name}</p>
-
-            <button onClick={updateName}>Set Name</button>
-
-
             <p>Age:{age}</p>
+            <button onClick={updateName}>Set Name</button>
+            <button onClick={resetAge}>Reset Age</button>
 
             <button onClick={Increment}> Increment</button>
-        </div>
+        
+            
+
+            <button onClick={decrement}> Decrement</button>
+            </div>
     );
 }
 
