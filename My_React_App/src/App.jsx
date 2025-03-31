@@ -1,16 +1,16 @@
 
-// // import Header  from "./assets/header.jsx"
-// // import Footer from "./assets/footer.jsx";
-// // import Food from "./Food.jsx";
+import Header  from "./assets/header.jsx"
+import Footer from "./assets/footer.jsx";
+import Food from "./Food.jsx";
 
-// import Button from "./button/botton"
+import Button from "./button/botton"
 
-// // import Card from "./Card.jsx";
-// import Student from "./Student";
-// import UserGreeting from "./UserGreeting.jsx";
-// import List from "./List.jsx";
-// import Button from "./Button";
-// import ProfilePicture from "./ProfilePicture";
+import Card from "./Card.jsx";
+import Student from "./Student";
+import UserGreeting from "./UserGreeting.jsx";
+import List from "./List.jsx";
+import Button from "./Button";
+import ProfilePicture from "./ProfilePicture";
 
 
 import MyComponent from "./MyComponent.jsx";
@@ -20,7 +20,7 @@ function App() {
    
     <MyComponent/>
 
-    {/*
+    
 <ProfilePicture/>
 
 
@@ -40,7 +40,7 @@ function App() {
   <Card/>
   <Header/>
   <Food/>
-  <Footer/> */}
+  <Footer/> 
 
      
      
