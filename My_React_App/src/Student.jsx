@@ -1,5 +1,5 @@
 
- import PropTypes from 'proptype';
+ import PropTypes from 'prop-types';
 function Student(props){
 
 return(
