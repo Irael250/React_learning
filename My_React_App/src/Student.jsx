@@ -1,5 +1,4 @@
 
- import PropTypes from 'prop-types';
 function Student(props){
 
 return(
@@ -11,12 +10,6 @@ return(
 );
 
 }
-Student.protoTypes ={
-    name: PropTypes.string,
-    age:PropTypes.number,
-    isStudent:PropTypes.bool,
-  
-  }
   
 
 export default Student

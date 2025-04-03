@@ -16,10 +16,13 @@ import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent.jsx";
 
 import Counter from "./Counter.jsx";
+
+import Title from "./assets/Title.jsx";
+
 function App() {
   return(
     <>
- 
+   <Title/>
     <Counter/>
    
     <MyComponent/>
